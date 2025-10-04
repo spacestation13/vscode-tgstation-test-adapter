@@ -1,6 +1,8 @@
-# Tgstation Test Explorer for Visual Studio Code
+# /tg/station13 Test Explorer for Visual Studio Code
 
-This is a VS Code Test Explorer adapter for BYOND's DM language and software, which will greatly improve the user experience of working with unit tests in BYOND projects. It is originally made for the [tgstation](https://github.com/tgstation/tgstation) codebase but tries to be as compatible as possible with other projects.
+This is a VS Code Test Explorer adapter for BYOND's DM language and software, which will greatly improve the user experience of working with unit tests in BYOND projects.
+It is originally made for the [tgstation](https://github.com/tgstation/tgstation) codebase but tries to be as compatible as possible with other projects.
+The tgstation codebase is actually no longer supported, but this still works for older forks of tgstation.
 
 ## Features
 
@@ -9,7 +11,7 @@ This is a VS Code Test Explorer adapter for BYOND's DM language and software, wh
 - Displays success status of each unit test
 - View error messages when unit tests fail
 
-Note: This extension is completely untested on anything but Windows 10. Detecting when dreamdaemon ends is abit hacky, so it might not work perfectly for other OSes. Please let me know if you have issues about this.
+Note: This extension is completely untested on anything but Windows 10/11. Detecting when dreamdaemon ends is abit hacky, so it might not work perfectly for other OSes. Please let me know if you have issues about this.
 
 ## Setup
 

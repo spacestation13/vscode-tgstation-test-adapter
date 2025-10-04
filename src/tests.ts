@@ -159,7 +159,7 @@ export async function runTests(
 	/// By default we run all tests, if request.includes is defined just these
 	let tests_to_run : vscode.TestItem[] = [];
 	if(request.include){
-		tests_to_run = request.include
+		tests_to_run = Array.from(request.include)
 	}
 	else{
 		controller.items.forEach(top_level_item => tests_to_run.push(top_level_item))

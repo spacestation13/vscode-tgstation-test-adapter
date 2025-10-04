@@ -1,19 +1,19 @@
 {
-  "name": "vscode-tgstation-test-adapter",
-  "displayName": "Tgstation Test Explorer",
+  "name": "vscode-tgstation13-test-adapter",
+  "displayName": "/tg/station13 Test Explorer",
   "description": "Run your tgstation tests in the Sidebar of Visual Studio Code",
   "icon": "img/icon.png",
   "author": "Daniel Hultgren <daniel.cf.hultgren@gmail.com>",
-  "publisher": "Donkie",
-  "version": "1.2.3",
+  "publisher": "ss13",
+  "version": "2.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/Donkie/vscode-tgstation-test-adapter",
+  "homepage": "https://github.com/spacestation13/vscode-tgstation-test-adapter",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Donkie/vscode-tgstation-test-adapter.git"
+    "url": "https://github.com/spacestation13/vscode-tgstation-test-adapter.git"
   },
   "bugs": {
-    "url": "https://github.com/Donkie/vscode-tgstation-test-adapter/issues"
+    "url": "https://github.com/spacestation13/vscode-tgstation-test-adapter/issues"
   },
   "categories": [
     "Other"
@@ -35,18 +35,18 @@
     "publish": "vsce publish"
   },
   "dependencies": {
-    "@types/node": "^14.17.4",
+    "@types/node": "^20",
     "ps-node": "^0.1.6",
-    "tslib": "^1.14.1"
+    "tslib": "^2.8.1"
   },
   "devDependencies": {
-    "@types/ps-node": "^0.1.0",
-    "@types/vscode": "~1.59.0",
-    "typescript": "^3.9.10",
-    "vsce": "^1.95.0"
+    "@types/ps-node": "^0.1.3",
+    "@types/vscode": "~1.90.0",
+    "@vscode/vsce": "^3.6.2",
+    "typescript": "^5.9.3"
   },
   "engines": {
-    "vscode": "^1.59.0"
+    "vscode": "^1.90.0"
   },
   "activationEvents": [
     "workspaceContains:*.dme"
@@ -54,7 +54,7 @@
   "contributes": {
     "configuration": {
       "type": "object",
-      "title": "Tgstation Test Explorer",
+      "title": "/tg/station13 Test Explorer",
       "properties": {
         "tgstationTestExplorer.logpanel": {
           "description": "Write diagnostic logs to an output panel",
